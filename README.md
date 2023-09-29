@@ -14,7 +14,7 @@ KekikNLP, dil işleme görevlerinde kullanılabilecek bir araçtır. Özellikle 
 │   ├── etkisiz_kelimeler.txt
 │   └── __init__.py
 ├── Veriler/
-│   └── islenmis_veri.csv
+│   └── islenmemis_veri.csv
 ├── model_egit.py
 ├── model_kullan.py
 └── requirements.txt

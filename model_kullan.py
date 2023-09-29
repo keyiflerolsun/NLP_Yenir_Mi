@@ -42,8 +42,8 @@ if __name__ == "__main__":
         for yorum in [
             "Harika! Buradaki ürünler çok kaliteli!",
             "kim üretti bunları",
-            # "çok kötü, almayın, güzel diye almıştık",
-            # "bunları yapanın ellerini öpeyim"
+            "çok kötü, almayın, güzel diye almıştık",
+            "bunları yapanın ellerini öpeyim"
         ]:
             tahmin = model_kullan(yorum, model)
             konsol.log(f"[{'green' if tahmin == 'pozitif' else 'red'}][»] {model_name} Tahmin Sonucu : {tahmin}")
