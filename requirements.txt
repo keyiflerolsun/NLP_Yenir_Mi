@@ -1,0 +1,7 @@
+setuptools
+wheel
+Kekik
+pandas
+imbalanced-learn
+scikit-learn
+joblib
